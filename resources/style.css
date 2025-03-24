@@ -1,0 +1,75 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px grey;
+}
+
+#id {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+nav{
+    width: 50%;
+}
+
+#links{
+    display: flex;
+    justify-content: space-around;
+}
+
+#links li{
+    list-style-type: none;
+}
+
+#about {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    top: 18px;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+aside{
+    width: 60%;
+    font-size: 18px;
+}
+
+#face{
+    border: rgb(61, 61, 61) 10px solid;
+    border-radius: 10px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: x-large;
+}
+
+#contact {
+    height: 200px;
+}
+
+@media screen and (max-width: 480px) {
+    
+}
