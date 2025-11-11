@@ -34,12 +34,12 @@ nav{
 }
 
 #about {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     top: 18px;
     position: relative;
-    height: 500px;
+    height: 460px;
     width: 100%;
 }
 
@@ -56,13 +56,13 @@ aside{
 .sections {
     display: flex;
     justify-content: space-around;
-    margin: 50px 0px;
+    margin: 30px 0px;
 }
 
 .heading{
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    margin: 10px 0;
     font-size: x-large;
 }
 
